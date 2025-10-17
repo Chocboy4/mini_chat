@@ -1,4 +1,4 @@
-import { seqquelize } from 'sequelize';
+import { Sequelize } from 'sequelize';
 import config from './index.js';
 
 const sequelize = new Sequelize(
@@ -17,9 +17,10 @@ const sequelize = new Sequelize(
 export const connectDb = async () => {
     try {
         await sequelize.authenticate();
+        await sequelize.sync();
         console.log('Database connected successfully');
     } catch (error) {
-        console.error('Database connection failed:', error);
+        console.log('Database connection failed:', error);
     }
 }
 

@@ -11,5 +11,8 @@ wer want to build a mini whatsapp app
 -Frontend and backend connection - react
 -Websocket - socket.io, node http
 -Caching - redis
--testing - jest
--database - swqulize and mysql
+-Testing - jest
+-Database - swqulize and mysql
+-Error handling
+-RBAC - Role Base Access Control
+-Todo - push to  github
