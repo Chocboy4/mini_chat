@@ -1,8 +1,8 @@
 # MINI WHATSAPP APP
 
-wer want to build a mini whatsapp app 
+wer want to build a mini whatsapp app
 
-# MY Requirements
+## MY Requirements
 
 -Authentication -Bcrypt, JsonwebToken,Middleware, express-validator
 -Email Service - nodemailer
@@ -12,4 +12,4 @@ wer want to build a mini whatsapp app
 -Websocket - socket.io, node http
 -Caching - redis
 -testing - jest
--database - swqulize and mysql2
+-database - swqulize and mysql
