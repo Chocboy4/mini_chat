@@ -44,4 +44,4 @@ Follow these steps to run the project locally 👇
 
 ```bash
 git clone https://github.com/your-username/mini-whatsapp-app.git
-cd mini-whatsapp-app
+cd mini-chat
